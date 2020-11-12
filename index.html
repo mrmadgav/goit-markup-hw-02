@@ -4,77 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!-- шапка страницы -->
     <header>
       <nav>
-      <a href="">Web Studio</a>
+      <a class="logo" href ="./index.html"><span class="first-logo-part">Web</span><span class="second-logo-part-header">Studio</span></a>
         <ul>
           <li>
-            <a href="">Студия</a>
+            <a class="menu-chosen" href="./index.html">Студия</a>
           </li>
           <li>
-            <a href="">Портфолио</a>
+            <a class="menu" href="./portfolio.html"><span class="portfolio-menu">Портфолио</span></a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a class="menu" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <!-- заказ услуги -->
     <main>
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <h1 class="service-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="order-service">Заказать услугу</button>
       </section>
       <!-- преимущества -->
       <section>
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="advantages">Внимание к деталям</h3>
+            <p class="advatages-description">
             Идейные соображения, а также 
             начало повседневной работы по 
             формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="advantages">Пунктуальность</h3>
+            <p class="advatages-description">
             Задача организации, в особенности
             же рамки и место обучения кадров 
             влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="advantages">Планирование</h3>
+            <p class="advatages-description">
             Равным образом консультация с 
             широким активом в значительной 
             степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="advantages">Современные технологии</h3>
+            <p class="advatages-description">
             Значимость этих проблем настолько 
             очевидна, что реализация 
             плановых заданий.   
+          </p>
           </li>
         </ul>
       </section>
       <!-- чем занимаемся -->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="block-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -98,10 +101,10 @@
             />
           </li>
         </ul>
-      </div>
+      </section>
       <!-- Наша команда -->
-      <div>
-        <h2>Наша команда</h2>
+      <section>
+        <h2 class="block-title">Наша команда</h2>
         <ul>
           <li>
             <div>
@@ -110,15 +113,15 @@
                 width="270"
                 alt="Игорь Демьяненко"
               />
-              <h3>Игорь Демьяненко</h3>
-              <p>Product designer</p>
+              <h3 class="worker-name">Игорь Демьяненко</h3>
+              <p class="worker-job">Product designer</p>
             </div>
           </li>
           <li>
             <div>
               <img src="images/imgrep.jpg" width="270" alt="Ольга Репина" />
-              <h3>Ольга Репина</h3>
-              <p>Frontend Developer</p>
+              <h3 class="worker-name">Ольга Репина</h3>
+              <p class="worker-job">Frontend Developer</p>
             </div>
           </li>
           <li>
@@ -127,32 +130,32 @@
                 src="images/imgtar.jpg"
                 width="270"
                 alt="Николай Тарасов"/>
-              <h3>Николай Тарасов</h3>
-              <p>Marketing</p>
+              <h3 class="worker-name">Николай Тарасов</h3>
+              <p class="worker-job">Marketing</p>
             </div>
           </li>
           <li>
             <div>
               <img src="images/imgerm.jpg" width="270" alt="Михаил Ермаков" />
-              <h3>Михаил Ермаков</h3>
-              <p>UI Designer</p>
+              <h3 class="worker-name">Михаил Ермаков</h3>
+              <p class="worker-job">UI Designer</p>
             </div>
           </li>
         </ul>
       </section>
     </main>
     <!-- Футер с контактами -->
-    <footer>
-      <a href="">Web Studio</a>
+    <footer class="footer">
+      <a class="logo" href ="./index.html"><span class="first-logo-part">Web</span><span class="second-logo-part-footer">Studio</span></a>
       <ul>
         <li>
-          <address>г. Киев, пр-т Леси Украинки, 26</address>
+          <address class="street">г. Киев, пр-т Леси Украинки, 26</address>
         </li>
         <li>
-          <a href="mailtoL:info@example.com">info@example.com</a>
+          <a class="footer-contacts" href="mailtoL:info@example.com">info@example.com</a>
         </li>
         <li>
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="footer-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
     </footer>
