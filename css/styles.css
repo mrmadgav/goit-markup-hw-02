@@ -1,8 +1,7 @@
-* {
-font-family: Roboto;
+body {
+    font-family: 'Roboto', 'Raleway', 'Oleo Script', sans-serif;
 }
 a:hover { 
-    text-decoration: underline;
     text-decoration-color: #2196F3;
 }
 .logo {
@@ -11,7 +10,7 @@ a:hover {
     left: 215px;
     top: 24px;
     
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -33,13 +32,11 @@ a {
     text-decoration: none   ;
 }
 .menu {
-    font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 color: #212121;
 }    
 .menu-chosen {
@@ -100,6 +97,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
+border: none;
 /* identical to box height, or 162% */
 
 letter-spacing: 0.03em;
