@@ -49,10 +49,15 @@ letter-spacing: 0.02em;
 color: var(--text-color-main);
 }    
 .menu-chosen {
+    font-style: normal;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
     color:var(--style-color);
 }
 .contacts {
-    font-weight: 500;
+font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -111,6 +116,9 @@ border: none;
 letter-spacing: 0.03em;
 
 color: var(--text-color-main);
+}
+.slider-other:hover, .slider-other:focus {
+    color: var(--style-color);
 }
 .card-title {
 font-style: normal;
