@@ -88,38 +88,34 @@ color: rgba(255, 255, 255, 0.6);
 .footer {
 background: var(--head-foot-background);
 }
-.slider-chosen {
-width: 73px;
-height: 38px;
-left: 495px;
-top: 174px;
-background: var(--style-color);
-/* shadow-middle */
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;   
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
-letter-spacing: 0.03em;
-color: var(--bg-color);
+.button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    /* identical to box height, or 162% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--text-color-main);
+    }
+.button:active, 
+.button:focus, button:hover {
+    background: var(--style-color);
+    /* shadow-middle */
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;   
+    outline: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: 0.03em;
+    color: var(--bg-color);
 }
-.slider-other {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-border: none;
-/* identical to box height, or 162% */
 
-letter-spacing: 0.03em;
-
-color: var(--text-color-main);
-}
-.slider-other:hover, .slider-other:focus {
-    color: var(--style-color);
-}
 .card-title {
 font-style: normal;
 font-weight: bold;
